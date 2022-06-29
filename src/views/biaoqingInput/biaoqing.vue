@@ -67,6 +67,10 @@
     watch:{
       value(){
         this.valueChange();
+      },
+      content(){
+        // 内容变更重新获取光标位置
+        this.contentClick();
       }
     },
     methods: {
